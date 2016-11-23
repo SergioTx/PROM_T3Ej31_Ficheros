@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PROM_T3Ej31_Ficheros</string>
+    <string name="ex1">Ejercicio1</string>
+    <string name="ex2">Ejercicio2</string>
+    <string name="ex3">Ejercicio3</string>
+    <string name="exit">SALIR</string>
+
+    <!-- Actividad 1 -->
+    <string name="txt_contentToWrite">Contenido a escribir: </string>
+    <string name="btn_addIntFile">AÑADIR FICH INT</string>
+    <string name="btn_addExtFile">AÑADIR FICH EXT</string>
+    <string name="btn_readIntFile">LEER FICH INT</string>
+    <string name="btn_readExtFile">LEER FICH EXT</string>
+    <string name="btn_readResource">LEER RECURSO</string>
+    <string name="btn_delExtFile">BORRAR FICH EXT</string>
+    <string name="btn_delIntFile">BORRAR FICH INT</string>
+    <string name="cont">El contenido del fichero es:</string>
+</resources>
