@@ -27,11 +27,13 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btn_addIntFile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_addIntFile"/>
 
         <Button
+            android:id="@+id/btn_addExtFile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_addExtFile"/>
@@ -44,18 +46,21 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btn_readIntFile"
             android:width="99dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_readIntFile"/>
 
         <Button
+            android:id="@+id/btn_readExtFile"
             android:width="99dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_readExtFile"/>
 
         <Button
+            android:id="@+id/btn_readResFile"
             android:width="99dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,11 +74,13 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btn_delIntFile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_delIntFile"/>
 
         <Button
+            android:id="@+id/btn_delExtFile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_delExtFile"/>
@@ -86,6 +93,7 @@
         android:text="@string/cont"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
