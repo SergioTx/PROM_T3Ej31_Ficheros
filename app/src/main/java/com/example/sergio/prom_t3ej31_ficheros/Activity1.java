@@ -49,7 +49,7 @@ public class Activity1 extends AppCompatActivity {
                     osw.write(str);
                     osw.close();
                 } catch (Exception e){
-                    Log.e("AddIntFile click","Error al escribir en fichero interno"); 
+                    Log.e("AddIntFile click","Error al escribir en fichero interno");
                 }
             }
         });
